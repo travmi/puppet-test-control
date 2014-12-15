@@ -19,18 +19,18 @@ mod 'spiette/selinux', '0.5.3'
 
 mod 'nginx',
   :git => 'https://bitbucket.org/travmi/mtravis-nginx.git',
-#  :branch => 'master'
-  :commit => '70914fdfd309523d4dba840dd1f9c36510b7b4cc'
+  :branch => 'master'
+#  :commit => '70914fdfd309523d4dba840dd1f9c36510b7b4cc'
 
 mod 'apache',
   :git => 'https://bitbucket.org/travmi/mtravis-apache.git',
-#  :branch => 'master'
-  :commit => '6892ba2'
+  :branch => 'master'
+#  :commit => '6892ba2'
 
 mod 'misc',
   :git => 'https://bitbucket.org/travmi/mtravis-misc.git',
-#  :branch => 'master'
-  :commit => '0a81d23'
+  :branch => 'master'
+#  :commit => '0a81d23'
 
 mod 'profile',
   :git => 'https://bitbucket.org/travmi/mtravis-profiles.git',
@@ -42,30 +42,31 @@ mod 'role',
   
 mod 'postfix',
   :git => 'https://bitbucket.org/travmi/mtravis-postfix.git',
-#  :branch => 'master'
-  :commit => 'edc7a90'
+  :branch => 'master'
+#  :commit => 'edc7a90'
   
 mod 'snmpd',
   :git => 'https://bitbucket.org/travmi/mtravis-snmpd.git',
-#  :branch => 'master'
-  :commit => '43690cf'
+  :branch => 'master'
+#  :commit => '43690cf'
   
 mod 'logrotate',
   :git => 'https://bitbucket.org/travmi/mtravis-logrotate.git',
-#  :branch => 'master'
-  :commit => 'b05a2e2'
+  :branch => 'master'
+#  :commit => 'b05a2e2'
   
 mod 'nrpe',
   :git => 'https://bitbucket.org/travmi/mtravis-nrpe.git',
-#  :branch => 'master'
-  :branch => '35ef017'
+  :branch => 'master'
+#  :commit => '35ef017'
   
 mod 'repo',
   :git => 'https://bitbucket.org/travmi/mtravis-repo.git',
-#  :branch => 'master'
-  :commit => 'cf17287'
+  :branch => 'master'
+#  :commit => 'cf17287'
 
 # This needs to stay at the 'php5' branch as it's not merged into master.  
 mod 'php',
   :git => 'git@github.com:travmi/puppet-php.git',
-  :commit => '3c7555c0a3db8ed642f60980ccb4a129b2c4da91'
+ # :commit => '3c7555c0a3db8ed642f60980ccb4a129b2c4da91'
+  :branch => 'master'

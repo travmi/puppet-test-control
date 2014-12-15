@@ -49,13 +49,13 @@ node "puppet.local.lan" {
 
 node "agent10.local.lan" {
   
-  include role::ahip_webserver
+  include role::staging_webserver
   
 }
 
 node "agent20.local.lan" {
   
-
+  include role::staging_webserver
   
 }
 
