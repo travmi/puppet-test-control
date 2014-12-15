@@ -62,7 +62,7 @@ mod 'nrpe',
   
 mod 'repo',
   :git => 'https://bitbucket.org/travmi/mtravis-repo.git',
-  :branch => 'master'
+  :branch => 'mirror'
 #  :commit => 'cf17287'
 
 # This needs to stay at the 'php5' branch as it's not merged into master.  
