@@ -68,5 +68,4 @@ mod 'repo',
 # This needs to stay at the 'php5' branch as it's not merged into master.  
 mod 'php',
   :git => 'git@github.com:travmi/puppet-php.git',
- # :commit => '3c7555c0a3db8ed642f60980ccb4a129b2c4da91'
-  :branch => 'master'
+  :branch => 'php5'
