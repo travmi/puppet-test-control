@@ -16,6 +16,8 @@ mod 'ajcrowe/supervisord', '0.5.0'
 mod 'puppetlabs/mount_providers'
 mod 'ghoneycutt/dnsclient', '3.2.0'
 mod 'spiette/selinux', '0.5.3'
+mod 'dwerder/graphite'
+mod 'bfraser/grafana'
 
 mod 'nginx',
   :git => 'https://bitbucket.org/travmi/mtravis-nginx.git',
